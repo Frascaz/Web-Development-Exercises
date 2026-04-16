@@ -44,7 +44,7 @@ For JavaScript errors, check the Browser Console (F12) for debugging information
 ## Authors
 
 Your Name
-* GitHub: @Frascaz
+* GitHub: [@Frascaz](https://github.com/Frascaz)
 * Instagram: [@Frascazzz](https://www.instagram.com/luca_frascaz/)
 
 ## Version History
