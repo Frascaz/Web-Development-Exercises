@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<title>Il Ciclo For</title>
+
+<body>
+    <p id="corpo"></p>
+</body>
+
+
+<script>
+
+    const cars = ["BMW", "Volvo", "Saab", "Ford"];
+    let text = "";
+
+    for (let index = 0; index < cars.length; index++) {
+        text += cars[index] + "\n";
+        document.getElementById("corpo").innerHTML = text;   
+    }
+
+
+
+</script>
+
+</html>

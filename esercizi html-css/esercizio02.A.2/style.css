@@ -1,0 +1,111 @@
+html {
+    background-color: #9DAE9D;
+    font-size: 20px;
+}
+
+
+.Hello {
+    background-color: #54D454;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+
+}
+
+.Logo {
+    display: grid;
+    /* Crea 3 colonne: 1fr (spazio), auto (centro), 1fr (spazio) */
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+
+}
+
+.Navbar {
+    margin: 5px;
+    background-color: #29E929;
+    list-style-type: none;
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+button {
+    font-size: 22px;
+    border: none;
+    background-color: transparent;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    font-size: 25px;
+}
+
+#LogoText {
+    grid-column: 2;
+    color: rgb(34, 34, 34);
+    font-family: cursive;
+    text-shadow: 2px 2px 12px;
+}
+
+#LogoImg {
+    grid-column: 3;
+    justify-self: end;
+    width: 65px;
+    height: 65px;
+}
+
+
+
+
+.Swag {
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #54D454;
+    display: flex;
+    gap: 10px;
+}
+
+.Welcome {
+    margin-left: 5px;
+    background-color: #29E929;
+}
+
+#WelcomeHead{
+    font-family: cursive;
+}
+
+.Photos {
+    margin-right: 5px;
+    background-color: #29E929;
+}
+
+#PhotosHead{
+    font-family: cursive;
+}
+
+#img1,
+#img2,
+#img3,
+#img4{
+    width: 75px;
+    transition: 0.5s ease-in-out;
+}
+
+#img1:hover,
+#img2:hover,
+#img3:hover,
+#img4:hover{
+    width: 85px;
+}
+
+footer {
+    background-color: #54D454;
+}
+
+#footertext1,
+#footertext2 {
+    margin: 5px;
+}

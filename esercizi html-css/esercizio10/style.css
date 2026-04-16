@@ -1,0 +1,52 @@
+html {
+    background-color: #9EFF66;
+}
+
+h1{
+    margin-left: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+}
+
+
+.Gallery-item {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    background-color: white;
+}
+
+.Gallery-item:hover {
+    border: 1px solid;
+    animation: glowPulse 2s infinite ease-in-out;
+}
+
+
+.Gallery-item img {
+    width: 100%;
+    height: 100px;
+}
+
+.Gallery-item div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+@keyframes glowPulse {
+    0% {
+        box-shadow: 0 0 0px magenta
+    }
+
+    50% {
+        box-shadow: 0 0 10px magenta, 0 0 20px magenta
+    }
+
+    100% {
+        box-shadow: 0 0 0px magenta
+    }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<title>Oggetti e Proprietà</title>
+
+<body>
+    <p id="corpo"></p>
+    <p id="persona"></p>
+</body>
+
+
+<script>
+    const person = {
+        firstName: "John",
+        lastName: "Doe",
+        age: 50,
+        eyeColor: "blue"
+    };
+
+    let fullName = person.firstName + " " + person.lastName;
+
+    person.nationality = "English";
+
+    let fullPerson = person.firstName + " " + person.lastName + " " + person.age + " " + person.eyeColor + " " + person.nationality;
+
+    document.getElementById("corpo").innerHTML = fullName;
+    document.getElementById("persona").innerHTML = fullPerson;
+
+
+</script>
+
+</html>

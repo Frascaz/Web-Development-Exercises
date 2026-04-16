@@ -1,0 +1,11 @@
+html{
+    background-color: beige;
+}
+
+input{
+    box-sizing: border-box;
+    border-bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+

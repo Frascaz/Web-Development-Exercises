@@ -1,0 +1,18 @@
+html{
+    background-color: gray;
+}
+
+.banner{
+    background-color: rgb(19, 200, 19);
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+#text{
+    position: absolute;
+    margin-top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
